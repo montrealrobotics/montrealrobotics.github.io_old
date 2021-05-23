@@ -1,8 +1,145 @@
----
-layout: default
-title: Research Projects
----
-<div class="card border-bottom-primary shadow py-2 mb-4">
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      
+        <title>Robotics Group @ University of Montreal | Research Projects</title>
+        <meta name="description" content="The Robotics and Embodied AI Lab @ U de Montreal">
+      
+        <link rel="shortcut icon" href="https://montrealrobotics.github.io/assets/img/favicon.png">
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+              integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+              crossorigin="anonymous">
+        <link rel="stylesheet" href="https://montrealrobotics.github.io/assets/css/sb-admin-2.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://montrealrobotics.github.io/assets/css/main.css">
+        <link rel="canonical" href="https://montrealrobotics.github.io/research">
+
+      </head>
+    <body>
+        <div class="container">
+            <!-- This is a bit nasty, but it basically says be a column first, and on larger screens be a spaced out row -->
+            <nav class="navbar sticky-top navbar-expand-lg navbar-light navbar-dark bg-primary mb-2 text-white">
+                <a class="navbar-brand" href="/">REAL</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                                
+                                
+            
+                                    
+            
+                                    
+                                    
+                                    
+            
+                                    <li class="nav-item">
+                                        <a class="nav-link "
+                                           href="/">
+                                            Home
+                                        </a>
+                                    </li>
+                                    
+            
+                                    
+            
+                                    
+                                    
+                                    
+            
+                                    <li class="nav-item">
+                                        <a class="nav-link "
+                                           href="/people.html">
+                                            People
+                                        </a>
+                                    </li>
+                                    
+            
+                                    
+            
+                                    
+                                    
+                                    
+            
+                                    <li class="nav-item">
+                                        <a class="nav-link active"
+                                           href="/research.html">
+                                            Research
+                                        </a>
+                                    </li>
+                                    
+            
+                                    
+            
+                                    
+                                    
+                                    
+            
+                                    <li class="nav-item">
+                                        <a class="nav-link "
+                                           href="/publications/">
+                                            Publications
+                                        </a>
+                                    </li>
+                                    
+            
+                                    
+            
+                                    
+                                    
+                                    
+            
+                                    <li class="nav-item">
+                                        <a class="nav-link "
+                                           href="/contact.html">
+                                            Contact
+                                        </a>
+                                    </li>
+                                    
+            
+                                    
+            
+                                    
+                                    
+                                    
+            
+                                    <li class="nav-item">
+                                        <a class="nav-link "
+                                           href="">
+                                            Blog
+                                        </a>
+                                    </li>
+                                    
+            
+                                    
+            
+                                    
+                                    
+                                    
+            
+                                    <li class="nav-item">
+                                        <a class="nav-link "
+                                           href="/blog.html">
+                                            
+                                        </a>
+                                    </li>
+                                    
+                        </ul>
+                      </div>
+            </nav>
+
+            
+
+            <!-- 
+                <h1>Research Projects</h1>
+             -->
+
+            <div class="card border-bottom-primary shadow py-2 mb-4">
         <div class="card-body">
           <div class="row no-gutters align-items-center">
             <div class="col mr-2">
@@ -13,12 +150,1145 @@ title: Research Projects
 </div>
 
 <!-- <div class="card-columns"> -->
-    {% comment %}
-    Sort the projects by date, putting those without dates last
-    {% endcomment %}
-    {% assign projects_by_date = site.projects | sort: 'last-updated', 'first' %}
-    {% assign projects_by_date = projects_by_date | reverse %}
-    {% for p in projects_by_date %}
-        {% include project-card.html project=p %}
-    {% endfor %}
+    
+    
+    
+    
+        
+
+
+
+
+
+<div class="card mb-3">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+                
+                    
+                    
+                    
+                    <a href="/projects/templates/01-gradslam.html">
+                            <img class="card-img" style="height: 100%" src="https://gradslam.github.io/images/pointfusiondemo.gif" alt="gradslam"/>
+                    </a>
+                
+          </div>
+          <div class="col-md-8">
+            <div class="card-body border-bottom-primary">
+                
+                <h3 class="card-title">
+                    <strong>
+                        gradslam 
+                        <span class="badge badge-secondary">active</span>
+                    </strong>
+                </h3>
+                
+                
+              <p class="card-text"><p>Differentiable dense SLAM for task-driven representation learning</p>
+</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              
+                <div class="card-footer d-flex flex-row flex-wrap justify-content-right">
+                    
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    <a href="https://krrish94.github.io"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Krishna Murthy Jatavallabhula"
+             title="Krishna Murthy Jatavallabhula"
+             src="/assets/img/people/krishna.jpg" />
+    
+    </a>
+
+
+                        </span>
+                    
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    <a href="https://epiception.github.io"
+       style="text-decoration: none">
+        
+        <svg class="profile noprofile"
+             alt="Ganesh Iyer"
+             viewBox="0 0 100 100">
+            <title>Ganesh Iyer</title>
+            <circle r="50" cx="50" cy="50" />
+            <text x="50" y="50"
+                  font-size="70"
+                  text-anchor="middle" dominant-baseline="central" >
+                G
+            </text>
+        </svg>
+    
+    </a>
+
+
+                        </span>
+                    
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    <a href="http://liampaull.ca"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Liam Paull"
+             title="Liam Paull"
+             src="/assets/img/people/liam.jpg" />
+    
+    </a>
+
+
+                        </span>
+                    
+                </div>
+                
+                
+                
+                <br/>
+                <div class="text-right">
+                        <a href="/projects/templates/01-gradslam.html" class="btn btn-primary btn-icon-split btn-sm">
+                                <span class="icon text-white-50">
+                                <i class="fa fa-robot"></i>
+                                </span>
+                                <span class="text">Read more &raquo;</span>
+                            </a>
+                </div>
+                
+                
+            </div>
+          </div>
+        </div>
+      </div>
+
+    
+        
+
+
+
+
+
+<div class="card mb-3">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+                
+                    
+                    
+                    
+                    <a href="/projects/templates/adr.html">
+                            <img class="card-img" style="height: 100%" src="assets/img/papers/adr.gif" alt="Active Domain Randomization"/>
+                    </a>
+                
+          </div>
+          <div class="col-md-8">
+            <div class="card-body border-bottom-primary">
+                
+                <h3 class="card-title">
+                    <strong>
+                        Active Domain Randomization 
+                        <span class="badge badge-secondary">active</span>
+                    </strong>
+                </h3>
+                
+                
+              <p class="card-text"><p>Making sim-to-real transfer more efficient</p>
+</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              
+                <div class="card-footer d-flex flex-row flex-wrap justify-content-right">
+                    
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    
+        <svg class="profile noprofile"
+             alt="Homanga Bharadhwaj"
+             viewBox="0 0 100 100">
+            <title>Homanga Bharadhwaj</title>
+            <circle r="50" cx="50" cy="50" />
+            <text x="50" y="50"
+                  font-size="70"
+                  text-anchor="middle" dominant-baseline="central" >
+                H
+            </text>
+        </svg>
+    
+
+
+                        </span>
+                    
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    
+        <svg class="profile noprofile"
+             alt=""
+             viewBox="0 0 100 100">
+            <title></title>
+            <circle r="50" cx="50" cy="50" />
+            <text x="50" y="50"
+                  font-size="70"
+                  text-anchor="middle" dominant-baseline="central" >
+                
+            </text>
+        </svg>
+    
+
+
+                        </span>
+                    
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    <a href="http://liampaull.ca"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Liam Paull"
+             title="Liam Paull"
+             src="/assets/img/people/liam.jpg" />
+    
+    </a>
+
+
+                        </span>
+                    
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    
+        <svg class="profile noprofile"
+             alt="Yoshua Bengio"
+             viewBox="0 0 100 100">
+            <title>Yoshua Bengio</title>
+            <circle r="50" cx="50" cy="50" />
+            <text x="50" y="50"
+                  font-size="70"
+                  text-anchor="middle" dominant-baseline="central" >
+                Y
+            </text>
+        </svg>
+    
+
+
+                        </span>
+                    
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    <a href="https://fgolemo.github.io/"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Florian Golemo"
+             title="Florian Golemo"
+             src="/assets/img/people/florian.jpg" />
+    
+    </a>
+
+
+                        </span>
+                    
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    <a href="https://bhairavmehta95.github.io/"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Bhairav Mehta"
+             title="Bhairav Mehta"
+             src="/assets/img/people/bhairav.jpg" />
+    
+    </a>
+
+
+                        </span>
+                    
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Manfred Diaz"
+             title="Manfred Diaz"
+             src="/assets/img/people/manfred.jpg" />
+    
+
+
+                        </span>
+                    
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Gunshi Gupta"
+             title="Gunshi Gupta"
+             src="/assets/img/people/gunshi.jpg" />
+    
+
+
+                        </span>
+                    
+                </div>
+                
+                
+                
+                <br/>
+                <div class="text-right">
+                        <a href="/projects/templates/adr.html" class="btn btn-primary btn-icon-split btn-sm">
+                                <span class="icon text-white-50">
+                                <i class="fa fa-robot"></i>
+                                </span>
+                                <span class="text">Read more &raquo;</span>
+                            </a>
+                </div>
+                
+                
+            </div>
+          </div>
+        </div>
+      </div>
+
+    
+        
+
+
+
+
+
+<div class="card mb-3">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+                
+                    
+                    
+                    
+                    <a href="/projects/templates/kimplete.html">
+                            <img class="card-img" style="height: 100%" src="https://i.ytimg.com/vi/mqp3bWqxDsc/maxresdefault.jpg" alt="Kimplete"/>
+                    </a>
+                
+          </div>
+          <div class="col-md-8">
+            <div class="card-body border-bottom-primary">
+                
+                <h3 class="card-title">
+                    <strong>
+                        Kimplete 
+                        <span class="badge badge-secondary">inactive</span>
+                    </strong>
+                </h3>
+                
+                
+              <p class="card-text"><p>Learning to construct amodal, interactable representations of the world</p>
+</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              
+                <div class="card-footer d-flex flex-row flex-wrap justify-content-right">
+                    
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    <a href="https://krrish94.github.io"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Krishna Murthy Jatavallabhula"
+             title="Krishna Murthy Jatavallabhula"
+             src="/assets/img/people/krishna.jpg" />
+    
+    </a>
+
+
+                        </span>
+                    
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    
+        <svg class="profile noprofile"
+             alt="Mark Van der Merwe"
+             viewBox="0 0 100 100">
+            <title>Mark Van der Merwe</title>
+            <circle r="50" cx="50" cy="50" />
+            <text x="50" y="50"
+                  font-size="70"
+                  text-anchor="middle" dominant-baseline="central" >
+                M
+            </text>
+        </svg>
+    
+
+
+                        </span>
+                    
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    <a href="http://liampaull.ca"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Liam Paull"
+             title="Liam Paull"
+             src="/assets/img/people/liam.jpg" />
+    
+    </a>
+
+
+                        </span>
+                    
+                </div>
+                
+                
+                
+                <br/>
+                <div class="text-right">
+                        <a href="/projects/templates/kimplete.html" class="btn btn-primary btn-icon-split btn-sm">
+                                <span class="icon text-white-50">
+                                <i class="fa fa-robot"></i>
+                                </span>
+                                <span class="text">Read more &raquo;</span>
+                            </a>
+                </div>
+                
+                
+            </div>
+          </div>
+        </div>
+      </div>
+
+    
+        
+
+
+
+
+
+<div class="card mb-3">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+                
+          </div>
+          <div class="col-md-8">
+            <div class="card-body border-bottom-primary">
+                
+                <h3 class="card-title">
+                    <strong>
+                        Deep Active Localization 
+                        <span class="badge badge-secondary">inactive</span>
+                    </strong>
+                </h3>
+                
+                
+              <p class="card-text"><p>Learned active localization, implemented on “real” robots.</p>
+</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              
+                <div class="card-footer d-flex flex-row flex-wrap justify-content-right">
+                    
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Sai Krishna G.V."
+             title="Sai Krishna G.V."
+             src="/assets/img/people/sai.jpg" />
+    
+
+
+                        </span>
+                    
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    
+        <svg class="profile noprofile"
+             alt="Keehong Seo"
+             viewBox="0 0 100 100">
+            <title>Keehong Seo</title>
+            <circle r="50" cx="50" cy="50" />
+            <text x="50" y="50"
+                  font-size="70"
+                  text-anchor="middle" dominant-baseline="central" >
+                K
+            </text>
+        </svg>
+    
+
+
+                        </span>
+                    
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    
+        <svg class="profile noprofile"
+             alt="Dhaivat Bhatt"
+             viewBox="0 0 100 100">
+            <title>Dhaivat Bhatt</title>
+            <circle r="50" cx="50" cy="50" />
+            <text x="50" y="50"
+                  font-size="70"
+                  text-anchor="middle" dominant-baseline="central" >
+                D
+            </text>
+        </svg>
+    
+
+
+                        </span>
+                    
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Vincent Mai"
+             title="Vincent Mai"
+             src="/assets/img/people/vincent.jpg" />
+    
+
+
+                        </span>
+                    
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    <a href="http://liampaull.ca"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Liam Paull"
+             title="Liam Paull"
+             src="/assets/img/people/liam.jpg" />
+    
+    </a>
+
+
+                        </span>
+                    
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    <a href="https://krrish94.github.io"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Krishna Murthy Jatavallabhula"
+             title="Krishna Murthy Jatavallabhula"
+             src="/assets/img/people/krishna.jpg" />
+    
+    </a>
+
+
+                        </span>
+                    
+                </div>
+                
+                
+                
+                <br/>
+                <div class="text-right">
+                        <a href="/projects/templates/dal.html" class="btn btn-primary btn-icon-split btn-sm">
+                                <span class="icon text-white-50">
+                                <i class="fa fa-robot"></i>
+                                </span>
+                                <span class="text">Read more &raquo;</span>
+                            </a>
+                </div>
+                
+                
+            </div>
+          </div>
+        </div>
+      </div>
+
+    
+        
+
+
+
+
+
+<div class="card mb-3">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+                
+          </div>
+          <div class="col-md-8">
+            <div class="card-body border-bottom-primary">
+                
+                <h3 class="card-title">
+                    <strong>
+                        Efficient Sim-to-real transfer 
+                        <span class="badge badge-secondary"></span>
+                    </strong>
+                </h3>
+                
+                
+              <p class="card-text"><p>A major thrust area for the group</p>
+</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              
+                <div class="card-footer d-flex flex-row flex-wrap justify-content-right">
+                    
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    
+        <svg class="profile noprofile"
+             alt="Homanga Bharadhwaj"
+             viewBox="0 0 100 100">
+            <title>Homanga Bharadhwaj</title>
+            <circle r="50" cx="50" cy="50" />
+            <text x="50" y="50"
+                  font-size="70"
+                  text-anchor="middle" dominant-baseline="central" >
+                H
+            </text>
+        </svg>
+    
+
+
+                        </span>
+                    
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    
+        <svg class="profile noprofile"
+             alt=""
+             viewBox="0 0 100 100">
+            <title></title>
+            <circle r="50" cx="50" cy="50" />
+            <text x="50" y="50"
+                  font-size="70"
+                  text-anchor="middle" dominant-baseline="central" >
+                
+            </text>
+        </svg>
+    
+
+
+                        </span>
+                    
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    <a href="http://liampaull.ca"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Liam Paull"
+             title="Liam Paull"
+             src="/assets/img/people/liam.jpg" />
+    
+    </a>
+
+
+                        </span>
+                    
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    
+        <svg class="profile noprofile"
+             alt="Yoshua Bengio"
+             viewBox="0 0 100 100">
+            <title>Yoshua Bengio</title>
+            <circle r="50" cx="50" cy="50" />
+            <text x="50" y="50"
+                  font-size="70"
+                  text-anchor="middle" dominant-baseline="central" >
+                Y
+            </text>
+        </svg>
+    
+
+
+                        </span>
+                    
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    <a href="https://fgolemo.github.io/"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Florian Golemo"
+             title="Florian Golemo"
+             src="/assets/img/people/florian.jpg" />
+    
+    </a>
+
+
+                        </span>
+                    
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    <a href="https://bhairavmehta95.github.io/"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Bhairav Mehta"
+             title="Bhairav Mehta"
+             src="/assets/img/people/bhairav.jpg" />
+    
+    </a>
+
+
+                        </span>
+                    
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Manfred Diaz"
+             title="Manfred Diaz"
+             src="/assets/img/people/manfred.jpg" />
+    
+
+
+                        </span>
+                    
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Gunshi Gupta"
+             title="Gunshi Gupta"
+             src="/assets/img/people/gunshi.jpg" />
+    
+
+
+                        </span>
+                    
+                </div>
+                
+                
+                
+                <br/>
+                <div class="text-right">
+                        <a href="/projects/templates/sim2real.html" class="btn btn-primary btn-icon-split btn-sm">
+                                <span class="icon text-white-50">
+                                <i class="fa fa-robot"></i>
+                                </span>
+                                <span class="text">Read more &raquo;</span>
+                            </a>
+                </div>
+                
+                
+            </div>
+          </div>
+        </div>
+      </div>
+
+    
+        
+
+
+
+
+
+<div class="card mb-3">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+                
+          </div>
+          <div class="col-md-8">
+            <div class="card-body border-bottom-primary">
+                
+                <h3 class="card-title">
+                    <strong>
+                        Self-supervised visual odometry estimation 
+                        <span class="badge badge-secondary">inactive</span>
+                    </strong>
+                </h3>
+                
+                
+              <p class="card-text"><p>A self-supervised deep network for visual odometry estimation from monocular imagery.</p>
+</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              
+                <div class="card-footer d-flex flex-row flex-wrap justify-content-right">
+                    
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    <a href="https://krrish94.github.io"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Krishna Murthy Jatavallabhula"
+             title="Krishna Murthy Jatavallabhula"
+             src="/assets/img/people/krishna.jpg" />
+    
+    </a>
+
+
+                        </span>
+                    
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    <a href="https://epiception.github.io"
+       style="text-decoration: none">
+        
+        <svg class="profile noprofile"
+             alt="Ganesh Iyer"
+             viewBox="0 0 100 100">
+            <title>Ganesh Iyer</title>
+            <circle r="50" cx="50" cy="50" />
+            <text x="50" y="50"
+                  font-size="70"
+                  text-anchor="middle" dominant-baseline="central" >
+                G
+            </text>
+        </svg>
+    
+    </a>
+
+
+                        </span>
+                    
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Gunshi Gupta"
+             title="Gunshi Gupta"
+             src="/assets/img/people/gunshi.jpg" />
+    
+
+
+                        </span>
+                    
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    <a href="https://robotics.iiit.ac.in"
+       style="text-decoration: none">
+        
+        <svg class="profile noprofile"
+             alt="K. Madhava Krishna"
+             viewBox="0 0 100 100">
+            <title>K. Madhava Krishna</title>
+            <circle r="50" cx="50" cy="50" />
+            <text x="50" y="50"
+                  font-size="70"
+                  text-anchor="middle" dominant-baseline="central" >
+                K
+            </text>
+        </svg>
+    
+    </a>
+
+
+                        </span>
+                    
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    <a href="http://liampaull.ca"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Liam Paull"
+             title="Liam Paull"
+             src="/assets/img/people/liam.jpg" />
+    
+    </a>
+
+
+                        </span>
+                    
+                </div>
+                
+                
+                
+                <br/>
+                <div class="text-right">
+                        <a href="https://krrish94.github.io/CTCNet-release/" class="btn btn-primary btn-icon-split btn-sm">
+                                <span class="icon text-white-50">
+                                <i class="fa fa-robot"></i>
+                                </span>
+                                <span class="text">Read more &raquo;</span>
+                            </a>
+                </div>
+                
+                
+            </div>
+          </div>
+        </div>
+      </div>
+
+    
 <!-- </div> -->
+
+
+            <div class="my-5 pt-5 text-muted text-center text-md">
+                <h4>&copy; Robotics and Embodied AI Lab Team, 2019</h4>
+                <p class="affiliations">
+                        <a href="https://en.diro.umontreal.ca/home/"><img src="https://montrealrobotics.github.io/assets/img/diro.png" width="150px" alt=
+                            "Department of Computer Science and Operations Research"> </a>
+                        |
+                        <a href="https://www.umontreal.ca/">
+                            <img src="https://montrealrobotics.github.io/assets/img/udem.png" width="150px" alt=
+                            "Universit&eacute; de Montr&eacute;al">
+                            </a>
+                </p>
+                <h4>Powered by jekyll</h4>
+            </div>
+
+        </div> <!-- /container -->
+
+        <!-- Load jquery-->
+        <script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+        <!-- Support retina images. -->
+        <script type="text/javascript"
+                src="/assets/js/srcset-polyfill.js"></script>
+        <!-- Support hidden abstract/bibtex blocks. -->
+        <script src="/assets/js/common.js"></script>
+    </body>
+</html>
